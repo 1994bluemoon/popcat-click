@@ -1,9 +1,9 @@
-# popcat-click
+# Popcat auto click
 Auto click on popcat click meme (popcat.click)
 
 # Code
 Slow but savety
-`
+``
 const ev = new KeyboardEvent(
   'keydown',
   {
@@ -15,7 +15,7 @@ setInterval(() => {
   document.dispatchEvent(ev)
 }, 60);
 
-`
+``
 
 # How to use
 1. Go to popcat.click
