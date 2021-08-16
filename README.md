@@ -19,7 +19,7 @@ setInterval(() => {
 
 # How to use
 1. Go to popcat.click
-2. Press F12 (Open development tool of web browser)
+2. Press `F12` (Open development tool of web browser)
 3. Switch to tab `Console` in development tool
 4. Paste the `Code` above and press `Enter`
 5. Enjoy
