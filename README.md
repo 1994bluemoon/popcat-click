@@ -25,4 +25,5 @@ setInterval(() => {
 5. Enjoy
 
 # Tips and tricks
-1. If you run auto click very fast **or** run auto click on multi tab/multi browser, the result **will not** commit to the server
+1. If you run auto click very fast **or** run auto click on multi tab/multi browser, the result **will not** commit to the server.
+2. After the `Code` run, you may need to close the development tool by press `F12` again. If don't, it is running out of RAM memory.
