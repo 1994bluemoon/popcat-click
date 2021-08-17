@@ -2,18 +2,12 @@
 Auto click on popcat click meme (popcat.click)
 
 # Code
-Slow but savety
+Slow but savety, it will send 799 click to server every 30s.
 ```
-const ev = new KeyboardEvent(
-  'keydown',
-  {
-    key:'g',
-    ctrlKey:true
-  }
-);
+const ev = new KeyboardEvent('keydown',{key:'g',ctrlKey:true});
 setInterval(() => {
-  document.dispatchEvent(ev)
-}, 60);
+		for (i=0;i<799;i++) {document.dispatchEvent(ev)}
+},30000);
 
 ```
 
@@ -27,3 +21,4 @@ setInterval(() => {
 # Tips and tricks
 1. If you run auto click very fast **or** run auto click on multi tab/multi browser, the result **will not** commit to the server.
 2. After the `Code` run, you may need to close the `development tool` by press `F12` again. If don't, it is running out of RAM memory.
+3. Max `PPS` is 800/30s, if over, the result **will not** commit to the server
