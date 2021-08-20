@@ -23,4 +23,6 @@ setInterval(() => {
 1. If you run auto click very fast **or** run auto click on multi tab/multi browser, the result **will not** commit to the server.
 2. After the `Code` run, you may need to close the `developer tool` by press `F12` again. If don't, it is running out of RAM memory.
 3. Max `PPS` is 800/30s, if over, the result **will not** commit to the server.
-4. The result is count per IP address
+4. The result is count per IP address.
+5. Recommended to use `Private window`.
+6. If the Cat's eyes are red, you are blocked, let close current `Private window` and open a new once.
