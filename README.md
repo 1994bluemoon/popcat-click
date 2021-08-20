@@ -4,6 +4,7 @@ Auto click on popcat click meme (popcat.click)
 # Code
 Slow but savety, it will send 799 click to server every 30s.
 ```
+
 const ev = new KeyboardEvent('keydown',{key:'g',ctrlKey:true});
 setInterval(() => {
   for (i=0;i<799;i++) {document.dispatchEvent(ev)}
