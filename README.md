@@ -14,12 +14,13 @@ setInterval(() => {
 
 # How to use
 1. Go to popcat.click
-2. Press `F12` (Open `development tool` of web browser)
-3. Switch to tab `Console` in development tool
+2. Press `F12` (Open `developer tool` of web browser)
+3. Switch to tab `Console` in `developer tool`
 4. Paste the `Code` above and press `Enter`
 5. Enjoy
 
 # Tips and tricks
 1. If you run auto click very fast **or** run auto click on multi tab/multi browser, the result **will not** commit to the server.
-2. After the `Code` run, you may need to close the `development tool` by press `F12` again. If don't, it is running out of RAM memory.
-3. Max `PPS` is 800/30s, if over, the result **will not** commit to the server
+2. After the `Code` run, you may need to close the `developer tool` by press `F12` again. If don't, it is running out of RAM memory.
+3. Max `PPS` is 800/30s, if over, the result **will not** commit to the server.
+4. The result is count per IP address
